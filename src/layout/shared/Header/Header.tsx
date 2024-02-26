@@ -1,18 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import './index.css';
 
 export default function Header() {
+	const { t } = useTranslation();
 	return (
 		<header>
 			<div className='container'>
-				<h2>Dejate ser alcanzado por su amor.</h2>
-				<h1>Iglesia del Padre</h1>
-				<p>
-					<b>
-						Y cuando yo haya sido elevado sobre la tierra, atraeré a todos hacia
-						mí.
-					</b>
-					- Juan 12:32
-				</p>
+				<h2> {t('header.subtitle')} </h2>
+				<h1> {t('header.title')} </h1>
+				<p> {t('header.text')} </p>
 			</div>
 			<video
 				autoPlay

@@ -1,0 +1,116 @@
+{
+	"header": {
+		"subtitle": "Dejate ser alcanzado por su amor.",
+		"title": "Iglesia del Padre",
+		"text": "Y cuando yo haya sido elevado sobre la tierra, atraeré a todos hacia mí.- Juan 12:32 "
+	},
+	"about": {
+		"title": "Acerca de nosotros",
+		"text": "En La Iglesia del Padre, nos enorgullece ser un lugar donde las personas pueden encontrar consuelo, comunidad y un profundo sentido de conexión espiritual. Tenemos un compromiso a cultivar un ambiente de amor, compasión y aceptación, donde cada individuo sea valorado y apoyado en este viaje que es vivir.",
+		"alt": "Un hombre viendo el horizonte"
+	},
+	"schedule": {
+		"title": "Horarios",
+		"text": ["Domingos: 9hs | 11hs | 19hs", "Miercoles: 17h", "Sabados: 19hs"],
+		"alt": "Un grupo de personas levantando las manos"
+	},
+	"evangelization": {
+		"title": "Por tanto, vayan y hagan discípulos de todas las naciones",
+		"verse": "Mateo 28:19",
+		"text": "Participa en nuestros programas de alcance diseñados para llegar a personas en nuestra comunidad que aún no conocen a Cristo, compartiendo el evangelio de una manera relevante y amorosa y sirviendo a las necesidades prácticas de las personas."
+	},
+	"values": {
+		"title": "Nuestros valores",
+		"content": [
+			{
+				"title": "Amor incondicional",
+				"text": "Creemos en el poder transformador del amor incondicional. Nos esforzamos por ser una comunidad que refleje el amor de Cristo en todo lo que hacemos, acogiendo a todos con brazos abiertos y mostrando compasión y gracia a aquellos que nos rodean."
+			},
+			{
+				"title": "Crecimiento espiritual",
+				"text": "Nos esforzamos por equipar y empoderar a cada miembro de nuestra comunidad para que florezca en su viaje espiritual y alcance su máximo potencial en Cristo."
+			},
+			{
+				"title": "Servicio compasivo",
+				"text": "Nos inspira el ejemplo de Jesús de servir a los demás con humildad y compasión. Buscamos ser una comunidad que se preocupa por las necesidades prácticas y espirituales de aquellos dentro y fuera de nuestras puertas."
+			}
+		]
+	},
+	"groups": {
+		"boxes": [
+			{
+				"title": "Grupo de jovenes",
+				"alt": "3 jovenes mirando a las montañas"
+			},
+			{ "title": "Grupo de hombres", "alt": "3 hombres conversando" },
+			{ "title": "Grupo de mujeres", "alt": "3 mujeres posando para una foto" }
+		],
+		"text": "¡Unete Ahora!"
+	},
+	"theology": {
+		"title": "Tu palabra es una lámpara a mis pies ...",
+		"verse": "Salmo 119:105",
+		"text": "Sumérgete en un círculo de estudio íntimo donde puedes explorar temas específicos de la fe, profundizar en las Escrituras y crecer en tu comprensión y compromiso con Dios en compañía de otros buscadores de la verdad."
+	},
+	"pray": {
+		"title": "... y sus oídos, atentos a sus oraciones.",
+		"verse": "Salmo 34:15",
+		"text": "Unete a uno de nuestros grupos de oración donde puedes levantar tus preocupaciones, agradecer tus bendiciones y buscar la guía de Dios en un ambiente de apoyo y amor fraternal."
+	},
+	"nextEvents": [
+		{
+			"image": "/home/worship.jpg",
+			"alt": "Un músico con un piano y una consola",
+			"title": "Noche de Alabanza",
+			"text": "Únete a nosotros para una noche llena de música, adoración y exaltación del nombre de Dios. Será un tiempo especial para elevar nuestros corazones en gratitud y alabanza por todo lo que Él ha hecho por nosotros.",
+			"date": "3 de marzo de 2024"
+		},
+		{
+			"image": "/home/camp.jpg",
+			"alt": "El cielo estrellado, una carpa y una fogata",
+			"title": "Campamento de jovenes",
+			"text": "¡Atención! Están invitados al campamento Más que vencedores lleno de diversión, música, juegos y reflexión espiritual. Será una excelente oportunidad para fortalecer amistades y crecer en comunidad.",
+			"date": "18 de marzo - 28 de marzo"
+		},
+		{
+			"image": "/home/matrimony.jpg",
+			"alt": "Dos anillos de compromiso",
+			"title": "Encuentro de matrimonios",
+			"text": "Para parejas comprometidas y casadas, este taller ofrece herramientas prácticas y consejos basados en principios bíblicos para fortalecer la relación matrimonial. Ven y aprende cómo construir un matrimonio sólido y duradero.",
+			"date": "10 de junio"
+		}
+	],
+	"newCreation": {
+		"title": "Nueva criatura",
+		"subtitle": "¿Estás comenzando tu caminar en la fe? ¿Eres nuevo en la iglesia? <br /> Queremos conocerte y ayudarte.",
+		"text": [
+			"<p>En Cristo, eres <strong> adoptado </strong> como hijo de Dios <i>(Juan 1:12; Romanos 8:14-17)</i>. <br> Esto significa que tienes una relación personal con Dios como tu <strong> Padre amoroso </strong>.</p>",
+			"<p>Has sido <strong>redimido</strong> del pecado y de la condenación por medio de su sacrificio en la cruz <i>(Efesios 1:7; Colosenses 1:13-14)</i>. <br> Eres <strong>perdonado y liberado</strong> del poder del pecado.</p>",
+			"<p>Eres una <strong>nueva creación</strong>; lo viejo ha pasado, y lo nuevo ha llegado <i>(2 Corintios 5:17)</i>. <br> Esto implica un cambio <strong>radical</strong> en tu identidad y naturaleza espiritual.</p>",
+			"<p>Eres <strong>justificado</strong> delante de Dios, es decir, declarado justo y sin culpa, por medio de tu fe en Él <i>(Romanos 3:21-26)</i>. <br> No eres justificado por tus obras, sino por la obra <strong>terminada</strong> de Cristo en la cruz.</p>",
+			"<p>Eres <strong>amado incondicionalmente</strong> por Dios <i>(Romanos 8:38-39)</i>. <br> Tu valía y dignidad no dependen de tus acciones o logros, sino del <strong>amor eterno</strong> de Dios.</p>"
+		]
+	},
+	"footer": {
+		"text": "Un lugar donde el amor de Dios se manifieste en acción, donde las personas encuentren consuelo, fortaleza y orientación en su viaje de fe, y donde se promueva la unidad, la compasión y la justicia en el mundo.",
+		"boxes": [
+			{
+				"title": "conectar",
+				"items": ["Líderes", "Involúcrate", "Contacto"]
+			},
+			{
+				"title": "recursos",
+				"items": ["Podcasts", "Series", "Ayuda"]
+			},
+			{
+				"title": "redes sociales",
+				"items": ["Facebook", "Instagram", "Twitter", "YouTube", "Spotify"]
+			},
+			{
+				"title": "otros",
+				"items": ["Privacidad", "Términos", "Noticias", "Donar"]
+			}
+		],
+		"end": "Iglesia i18n - © Todos los derechos reservados - 2023 - 2026"
+	}
+}

@@ -1,8 +1,9 @@
+import { v4 as uuidv4 } from 'uuid';
 import './DoubleBox.css';
 
 interface Props {
 	title: string;
-	text: string[];
+	text: string | string[];
 	image: string;
 	alt: string;
 	inverted?: boolean;
@@ -19,10 +20,9 @@ export default function DoubleBox({
 		<section className='doubleBox'>
 			<article className={`box-1 ${inverted && 'box-1-inverted'}`}>
 				<h3> {title} </h3>
-
-				{text.map((item) => (
-					<p> {item} </p>
-				))}
+				{!Array.isArray(text)
+					? text
+					: text?.map((item) => <p key={uuidv4()}> {item} </p>)}
 			</article>
 			<img
 				src={image}

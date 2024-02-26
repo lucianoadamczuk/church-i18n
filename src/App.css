@@ -8,9 +8,22 @@ html {
 	font-size: 62.5%;
 }
 
+@font-face {
+	font-family: 'lato';
+	src: url('/fonts/Lato-Regular.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'lato';
+	src: url('/lato/Lato-Bold.ttf');
+	font-weight: bold;
+}
+
 body {
 	min-height: 100vh;
 	background-color: var(--light);
 	color: var(--dark);
 	font-size: 1.6rem;
+	font-family: sans-serif;
 }

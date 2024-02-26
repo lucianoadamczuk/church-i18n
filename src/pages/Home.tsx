@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import {
 	About,
 	Evangelization,
@@ -13,19 +14,17 @@ import { Header } from '../layout/shared';
 
 export default function Home() {
 	return (
-		<div>
+		<Suspense fallback={<p>loading</p>}>
 			<Header />
 			<About />
 			<Schedule />
-
 			<Evangelization />
-
 			<Values />
 			<Groups />
 			<Theology />
 			<Pray />
 			<NextEvents />
 			<NewCreation />
-		</div>
+		</Suspense>
 	);
 }

@@ -1,0 +1,116 @@
+{
+	"header": {
+		"subtitle": "Let yourself be reached by His love.",
+		"title": "Father's Church",
+		"text": "And I, when I am lifted up from the earth, will draw all people to myself. - John 12:32"
+	},
+	"about": {
+		"title": "About Us",
+		"text": "At Father's Church, we take pride in being a place where people can find comfort, community, and a deep sense of spiritual connection. We are committed to cultivating an environment of love, compassion, and acceptance, where each individual is valued and supported in this journey called life.",
+		"alt": "A man looking at the horizon"
+	},
+	"schedule": {
+		"title": "Schedule",
+		"text": ["Sundays: 9am | 11am | 7pm", "Wednesdays: 5pm", "Saturdays: 7pm"],
+		"alt": "A group of people raising hands"
+	},
+	"evangelization": {
+		"title": "Therefore, go and make disciples of all nations",
+		"verse": "Matthew 28:19",
+		"text": "Participate in our outreach programs designed to reach people in our community who do not yet know Christ, sharing the gospel in a relevant and loving way and serving the practical needs of people."
+	},
+	"values": {
+		"title": "Our Values",
+		"content": [
+			{
+				"title": "Unconditional Love",
+				"text": "We believe in the transformative power of unconditional love. We strive to be a community that reflects Christ's love in all we do, welcoming everyone with open arms and showing compassion and grace to those around us."
+			},
+			{
+				"title": "Spiritual Growth",
+				"text": "We endeavor to equip and empower every member of our community to flourish in their spiritual journey and reach their full potential in Christ."
+			},
+			{
+				"title": "Compassionate Service",
+				"text": "We are inspired by Jesus' example of serving others with humility and compassion. We seek to be a community that cares for the practical and spiritual needs of those within and outside our doors."
+			}
+		]
+	},
+	"groups": {
+		"boxes": [
+			{
+				"title": "Youth Group",
+				"alt": "3 youths looking at the mountains"
+			},
+			{ "title": "Men's Group", "alt": "3 men conversing" },
+			{ "title": "Women's Group", "alt": "3 women posing for a photo" }
+		],
+		"text": "Join Now!"
+	},
+	"theology": {
+		"title": "Tu palabra es una lámpara a mis pies ...",
+		"verse": "Salmo 119:105",
+		"text": "Sumérgete en un círculo de estudio íntimo donde puedes explorar temas específicos de la fe, profundizar en las Escrituras y crecer en tu comprensión y compromiso con Dios en compañía de otros buscadores de la verdad."
+	},
+	"pray": {
+		"title": "... and his ears attentive to their prayers.",
+		"verse": "Psalm 34:15",
+		"text": "Join one of our prayer groups where you can lift up your concerns, thank your blessings, and seek God's guidance in an atmosphere of support and brotherly love."
+	},
+	"nextEvents": [
+		{
+			"image": "/home/worship.jpg",
+			"alt": "Музыкант за пианино и консолью",
+			"title": "Ночь Хвалы",
+			"text": "Присоединяйтесь к нам на вечер, полный музыки, поклонения и прославления имени Бога. Это будет особенное время, чтобы возвысить наши сердца в благодарности и хвале за все, что Он сделал для нас.",
+			"date": "3 марта 2024"
+		},
+		{
+			"image": "/home/camp.jpg",
+			"alt": "Звездное небо, палатка и костер",
+			"title": "Летний Лагерь",
+			"text": "Внимание! Вы приглашены на лагерь 'Больше, чем победители', полный веселья, музыки, игр и духовного размышления. Это будет отличная возможность укрепить дружеские узы и вырасти в сообществе.",
+			"date": "18 марта - 28 марта"
+		},
+		{
+			"image": "/home/matrimony.jpg",
+			"alt": "Два обручальных кольца",
+			"title": "Встреча Супружеских Пар",
+			"text": "Для помолвленных и женатых пар этот семинар предлагает практические инструменты и советы на основе библейских принципов, чтобы укрепить брачные отношения. Приходите и узнайте, как построить крепкий и долговечный брак.",
+			"date": "10 июня"
+		}
+	],
+	"newCreation": {
+		"title": "Новое Создание",
+		"subtitle": "Начинаете ли вы свой путь в вере? Новичок в церкви? <br /> Мы хотим встретить вас и помочь вам.",
+		"text": [
+			"<p>Во Христе вы <strong>приняты</strong> как дитя Божие <i>(Иоанн 1:12; Римлянам 8:14-17)</i>. <br> Это означает, что у вас есть личные отношения с Богом как с вашим <strong>любящим Отцом</strong>.</p>",
+			"<p>Вы <strong>выкуплены</strong> от греха и осуждения через Его жертву на кресте <i>(Ефесянам 1:7; Колоссянам 1:13-14)</i>. <br> Вы <strong>простены и освобождены</strong> от власти греха.</p>",
+			"<p>Вы <strong>новое создание</strong>; старое прошло, и новое пришло <i>(2 Коринфянам 5:17)</i>. <br> Это подразумевает <strong>радикальное</strong> изменение вашей личности и духовной природы.</p>",
+			"<p>Вы <strong>оправданы</strong> перед Богом, то есть объявлены праведными и непорочными, через вашу веру в Него <i>(Римлянам 3:21-26)</i>. <br> Вы не оправданы своими делами, а завершенной работой Христа на кресте.</p>",
+			"<p>Вы <strong>безусловно любимы</strong> Богом <i>(Римлянам 8:38-39)</i>. <br> Ваша ценность и достоинство не зависят от ваших действий или достижений, а от <strong>вечной любви</strong> Бога.</p>"
+		]
+	},
+	"footer": {
+		"text": "Место, где любовь Бога проявляется в действиях, где люди находят утешение, силу и руководство на своем пути веры, и где поддерживается единство, сострадание и справедливость в мире.",
+		"boxes": [
+			{
+				"title": "Связь",
+				"items": ["Лидеры", "Участвуйте", "Контакт"]
+			},
+			{
+				"title": "Ресурсы",
+				"items": ["Подкасты", "Серии", "Помощь"]
+			},
+			{
+				"title": "Социальные Сети",
+				"items": ["Facebook", "Instagram", "Twitter", "YouTube", "Spotify"]
+			},
+			{
+				"title": "Другое",
+				"items": ["Конфиденциальность", "Условия", "Новости", "Пожертвовать"]
+			}
+		],
+		"end": "Церковь i18n - © Все права защищены - 2023 - 2026"
+	}
+}
