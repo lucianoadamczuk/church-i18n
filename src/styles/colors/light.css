@@ -1,0 +1,19 @@
+:root {
+	--primary-light: #d9c6b0;
+	--primary-light-transparent: rgba(217, 198, 176, 0.7);
+
+	--primary-middle: #bfa27e;
+	--primary-middle-transparent: rgba(191, 162, 126, 0.7);
+
+	--primary-dark: #735736;
+	--primary-dark-transparent: rgba(115, 87, 54, 0.7);
+
+	--highlight: #8c311c;
+	--highlight-transparent: rgba(140, 49, 28, 0.7);
+
+	--dark: #0d0d0d;
+	--dark-transparent: rgba(13, 13, 13, 0.8);
+
+	--light: #f5f5f5;
+	--light-transparent: rgba(245, 245, 245, 0.4);
+}

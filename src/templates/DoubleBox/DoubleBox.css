@@ -1,0 +1,42 @@
+.doubleBox {
+	display: grid;
+	grid-template-columns: 1fr;
+
+	place-items: center;
+
+	@media (width > 720px) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	> .box-1 {
+		padding: var(--big) var(--container);
+		text-align: center;
+
+		& > h3 {
+			margin-bottom: var(--medium);
+			font-size: var(--title);
+			color: var(--primary-dark);
+		}
+
+		& > p {
+			margin-bottom: 5px;
+		}
+	}
+
+	> .box-2 {
+		width: 100%;
+		min-height: 50vh;
+		object-fit: cover;
+		opacity: 0.6;
+	}
+
+	@media (width > 720px) {
+		> .box-1-inverted {
+			order: 2;
+		}
+
+		> .box-2-inverted {
+			order: 1;
+		}
+	}
+}

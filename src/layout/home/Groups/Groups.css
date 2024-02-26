@@ -1,0 +1,55 @@
+.Groups {
+	display: grid;
+
+	@media (width > 720px) {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	> .box {
+		width: 100%;
+		height: 500px;
+		position: relative;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		text-align: center;
+
+		> .container {
+			width: 100;
+			position: absolute;
+			inset: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: var(--light-transparent);
+			transition-duration: 0.3s;
+			z-index: 2;
+
+			& > h4 {
+				font-size: var(--title);
+				text-transform: uppercase;
+				color: var(--primary-middle);
+				transition-duration: 0.5s;
+			}
+
+			> .title {
+				font-size: var(--title);
+			}
+		}
+
+		> .container:hover {
+			background-color: transparent;
+
+			& > h4 {
+				transform: scale(120%);
+			}
+		}
+
+		> .image {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			opacity: 0.8;
+		}
+	}
+}

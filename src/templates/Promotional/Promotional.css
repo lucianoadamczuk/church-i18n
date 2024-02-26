@@ -1,0 +1,60 @@
+.promotional {
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+
+	> .container {
+		min-height: 100vh;
+		height: 100%;
+		padding: var(--big) var(--container);
+		display: grid;
+		grid-template-columns: 1fr;
+		place-items: center;
+		background-color: var(--dark-transparent);
+		text-align: center;
+		> .box-1 {
+			max-width: 600px;
+			display: grid;
+			place-items: center;
+			grid-template-rows: 1fr 1fr;
+
+			> .container-1 {
+				margin-bottom: var(--big);
+
+				.title {
+					font-size: var(--header);
+					color: var(--primary-middle);
+				}
+
+				.verse {
+					font-style: italic;
+					color: var(--primary-light-transparent);
+				}
+			}
+
+			> .container-2 {
+				& > p {
+					color: var(--light);
+				}
+
+				> .button {
+					width: 100%;
+					margin: var(--small) 0;
+					padding: var(--small);
+					background-color: var(--light-transparent);
+					border-radius: 2px;
+					font-size: var(--subtitle);
+					text-align: center;
+				}
+
+				> .button:hover {
+					background-color: var(--light);
+				}
+
+				> .button:active {
+					transform: scale(0.95);
+				}
+			}
+		}
+	}
+}

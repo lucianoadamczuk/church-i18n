@@ -1,0 +1,50 @@
+footer {
+	padding: var(--big) var(--container);
+	background-color: var(--dark);
+	color: var(--light);
+
+	> .linksContainer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: center;
+		gap: var(--big);
+
+		@media (width > 1024px) {
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		}
+
+		& > article {
+			padding: var(--big) 0;
+
+			.title {
+				font-size: var(--subtitle);
+				text-transform: uppercase;
+				margin-bottom: var(--big);
+			}
+
+			.link {
+				margin-top: var(--medium);
+				color: var(--light-transparent);
+				cursor: pointer;
+			}
+
+			.link:hover {
+				text-decoration: underline;
+				color: var(--light);
+			}
+		}
+
+		& > article:first-child {
+			grid-column: span 2;
+		}
+		@media (width > 1024px) {
+			& > article:first-child {
+				grid-column: span 1;
+			}
+		}
+	}
+
+	> .end {
+		text-align: center;
+	}
+}

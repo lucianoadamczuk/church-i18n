@@ -1,0 +1,31 @@
+.Values {
+	padding: var(--big) var(--container);
+	display: grid;
+	grid-template-columns: 1fr;
+
+	@media (width > 720px) {
+		grid-template-columns: 2fr 2fr;
+		place-items: center;
+		gap: var(--big);
+	}
+
+	> .title {
+		width: fit-content;
+		height: fit-content;
+		padding: var(--smal);
+		font-size: var(--header);
+		text-align: center;
+		color: var(--primary-middle);
+		text-transform: uppercase;
+	}
+
+	> .cardsContainer {
+		> .card {
+			padding: var(--small) 0;
+			> .title {
+				font-size: var(--subtitle);
+				color: var(--primary-dark);
+			}
+		}
+	}
+}

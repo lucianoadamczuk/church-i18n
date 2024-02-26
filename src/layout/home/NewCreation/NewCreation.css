@@ -1,0 +1,45 @@
+.NewCreation {
+	padding: var(--big) var(--container);
+
+	@media (width > 720px) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		place-items: center;
+		gap: var(--medium);
+	}
+
+	> .content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+		> .title {
+			font-size: var(--header);
+			color: var(--primary-dark);
+		}
+
+		> .subtitle {
+			font-size: var(--subtitle);
+			color: var(--primary-dark-transparent);
+		}
+		> .textContainer {
+			margin-top: var(--medium);
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	> .image {
+		display: none;
+	}
+	@media (width > 720px) {
+		> .image {
+			width: 80%;
+			height: 500px;
+			display: flex;
+			object-fit: cover;
+			opacity: 0.8;
+		}
+	}
+}

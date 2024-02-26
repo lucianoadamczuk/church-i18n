@@ -1,0 +1,9 @@
+export { default as About } from './About';
+export { default as Evangelization } from './Evangelization';
+export { default as Groups } from './Groups/Groups';
+export { default as NewCreation } from './NewCreation/NewCreation';
+export { default as NextEvents } from './NextEvents/NextEvents';
+export { default as Pray } from './Pray';
+export { default as Schedule } from './Schedule';
+export { default as Theology } from './Theology';
+export { default as Values } from './Values/Values';
