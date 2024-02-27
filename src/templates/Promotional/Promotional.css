@@ -36,24 +36,6 @@
 				& > p {
 					color: var(--light);
 				}
-
-				> .button {
-					width: 100%;
-					margin: var(--small) 0;
-					padding: var(--small);
-					background-color: var(--light-transparent);
-					border-radius: 2px;
-					font-size: var(--subtitle);
-					text-align: center;
-				}
-
-				> .button:hover {
-					background-color: var(--light);
-				}
-
-				> .button:active {
-					transform: scale(0.95);
-				}
 			}
 		}
 	}

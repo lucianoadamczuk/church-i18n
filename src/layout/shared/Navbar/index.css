@@ -2,7 +2,23 @@
 	width: 100%;
 	position: fixed;
 	top: 0;
-
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--dark);
 	padding: var(--medium) var(--container);
 	z-index: 50;
+
+	> .title {
+		color: var(--primary-dark);
+	}
+
+	> .select {
+		width: 120px;
+		padding: 0 var(--small);
+		color: var(--light);
+		background-color: var(--dark);
+		cursor: pointer;
+		border-radius: 5px;
+		border: 0px;
+	}
 }

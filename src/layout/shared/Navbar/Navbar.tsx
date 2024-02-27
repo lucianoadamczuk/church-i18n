@@ -1,24 +1,24 @@
 import { useTranslation } from 'react-i18next';
 import './index.css';
-import { useState } from 'react';
+
 export default function Navbar() {
-	const { i18n } = useTranslation();
-	const [language, setLanguage] = useState('holis');
+	const { t, i18n } = useTranslation();
+
+	const languages: Array<{ value: string; text: string }> = t(
+		'navbar.languages',
+		{ returnObjects: true }
+	);
 	return (
 		<nav className='navbar'>
-			<h5>Church</h5>
+			<h5 className='title'> {t('navbar.title')} </h5>
 			<select
-				name=''
-				id=''
-				onChange={(e) => (
-					i18n.changeLanguage(e.target.value), setLanguage(e.target.value)
-				)}
+				className='select'
+				onChange={(e) => i18n.changeLanguage(e.target.value)}
 			>
-				<option value='es'>Spanish</option>
-				<option value='en'>English</option>
-				<option value='ru'>Russian</option>
+				{languages?.map(({ value, text }) => (
+					<option value={value}> {text} </option>
+				))}
 			</select>
-			<p> {language} </p>
 		</nav>
 	);
 }

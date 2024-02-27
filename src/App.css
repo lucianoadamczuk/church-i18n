@@ -20,10 +20,29 @@ html {
 	font-weight: bold;
 }
 
+@font-face {
+	font-family: 'lato';
+	src: url('/lato/Lato-Italic.ttf');
+	font-style: italic;
+}
+
 body {
 	min-height: 100vh;
 	background-color: var(--light);
 	color: var(--dark);
-	font-size: 1.6rem;
-	font-family: sans-serif;
+	font-size: 1.8rem;
+	font-family: 'lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-wrap: pretty;
+}
+
+p {
+	text-wrap: balance;
 }

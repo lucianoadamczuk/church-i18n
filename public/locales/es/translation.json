@@ -1,4 +1,12 @@
 {
+	"navbar": {
+		"title": "Iglesia i18n",
+		"languages": [
+			{ "value": "es", "text": "Español" },
+			{ "value": "en", "text": "Ingles" },
+			{ "value": "ru", "text": "Ruso" }
+		]
+	},
 	"header": {
 		"subtitle": "Dejate ser alcanzado por su amor.",
 		"title": "Iglesia del Padre",

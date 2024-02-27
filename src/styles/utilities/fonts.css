@@ -3,3 +3,11 @@
 	--title: 3rem;
 	--subtitle: 2rem;
 }
+
+@media (width > 720px) {
+	* {
+		--header: 8rem;
+		--title: 4rem;
+		--subtitle: 3rem;
+	}
+}

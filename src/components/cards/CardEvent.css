@@ -17,10 +17,6 @@
 			letter-spacing: 5px;
 		}
 
-		> .description {
-			font-size: var(--subtitle);
-		}
-
 		> .image {
 			width: 100%;
 			height: 300px;

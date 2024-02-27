@@ -13,7 +13,7 @@ export default function CardEvent({ image, alt, title, text, date }: Props) {
 			<img src={image} alt={alt} loading='lazy' className='image-desktop' />
 			<div className='content'>
 				<h5 className='title'> {title} </h5>
-				<p className='description'>{text}</p>
+				<p>{text}</p>
 				<img
 					src={image}
 					alt={alt}

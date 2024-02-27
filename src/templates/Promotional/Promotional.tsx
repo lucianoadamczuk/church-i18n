@@ -30,7 +30,6 @@ export default function Promotional({
 
 					<div className='container-2'>
 						<p>{text}</p>
-						<div className='button'>Ver más</div>
 					</div>
 				</article>
 			</div>

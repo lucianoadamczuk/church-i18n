@@ -1,4 +1,12 @@
 {
+	"navbar": {
+		"title": "Church i18n",
+		"languages": [
+			{ "value": "es", "text": "Spanish" },
+			{ "value": "en", "text": "English" },
+			{ "value": "ru", "text": "Russian" }
+		]
+	},
 	"header": {
 		"subtitle": "Let yourself be reached by His love.",
 		"title": "Father's Church",
@@ -60,57 +68,57 @@
 	"nextEvents": [
 		{
 			"image": "/home/worship.jpg",
-			"alt": "Музыкант за пианино и консолью",
-			"title": "Ночь Хвалы",
-			"text": "Присоединяйтесь к нам на вечер, полный музыки, поклонения и прославления имени Бога. Это будет особенное время, чтобы возвысить наши сердца в благодарности и хвале за все, что Он сделал для нас.",
-			"date": "3 марта 2024"
+			"alt": "Musician at a piano and console",
+			"title": "Praise Night",
+			"text": "Join us for an evening filled with music, worship, and exaltation of God's name. It will be a special time to lift our hearts in gratitude and praise for all that He has done for us.",
+			"date": "March 3, 2024"
 		},
 		{
 			"image": "/home/camp.jpg",
-			"alt": "Звездное небо, палатка и костер",
-			"title": "Летний Лагерь",
-			"text": "Внимание! Вы приглашены на лагерь 'Больше, чем победители', полный веселья, музыки, игр и духовного размышления. Это будет отличная возможность укрепить дружеские узы и вырасти в сообществе.",
-			"date": "18 марта - 28 марта"
+			"alt": "Starry sky, tent, and campfire",
+			"title": "Summer Camp",
+			"text": "Attention! You are invited to the 'More than Conquerors' camp, filled with fun, music, games, and spiritual reflection. It will be an excellent opportunity to strengthen friendships and grow in community.",
+			"date": "March 18 - March 28"
 		},
 		{
 			"image": "/home/matrimony.jpg",
-			"alt": "Два обручальных кольца",
-			"title": "Встреча Супружеских Пар",
-			"text": "Для помолвленных и женатых пар этот семинар предлагает практические инструменты и советы на основе библейских принципов, чтобы укрепить брачные отношения. Приходите и узнайте, как построить крепкий и долговечный брак.",
-			"date": "10 июня"
+			"alt": "Two engagement rings",
+			"title": "Marriage Encounter",
+			"text": "For engaged and married couples, this seminar offers practical tools and advice based on biblical principles to strengthen marital relationships. Come and learn how to build a strong and lasting marriage.",
+			"date": "June 10"
 		}
 	],
 	"newCreation": {
-		"title": "Новое Создание",
-		"subtitle": "Начинаете ли вы свой путь в вере? Новичок в церкви? <br /> Мы хотим встретить вас и помочь вам.",
+		"title": "New Creation",
+		"subtitle": "Are you starting your journey in faith? Newcomer to the church? <br /> We want to meet you and help you.",
 		"text": [
-			"<p>Во Христе вы <strong>приняты</strong> как дитя Божие <i>(Иоанн 1:12; Римлянам 8:14-17)</i>. <br> Это означает, что у вас есть личные отношения с Богом как с вашим <strong>любящим Отцом</strong>.</p>",
-			"<p>Вы <strong>выкуплены</strong> от греха и осуждения через Его жертву на кресте <i>(Ефесянам 1:7; Колоссянам 1:13-14)</i>. <br> Вы <strong>простены и освобождены</strong> от власти греха.</p>",
-			"<p>Вы <strong>новое создание</strong>; старое прошло, и новое пришло <i>(2 Коринфянам 5:17)</i>. <br> Это подразумевает <strong>радикальное</strong> изменение вашей личности и духовной природы.</p>",
-			"<p>Вы <strong>оправданы</strong> перед Богом, то есть объявлены праведными и непорочными, через вашу веру в Него <i>(Римлянам 3:21-26)</i>. <br> Вы не оправданы своими делами, а завершенной работой Христа на кресте.</p>",
-			"<p>Вы <strong>безусловно любимы</strong> Богом <i>(Римлянам 8:38-39)</i>. <br> Ваша ценность и достоинство не зависят от ваших действий или достижений, а от <strong>вечной любви</strong> Бога.</p>"
+			"<p>In Christ, you are <strong>adopted</strong> as a child of God <i>(John 1:12; Romans 8:14-17)</i>. <br> This means you have a personal relationship with God as your <strong>loving Father</strong>.</p>",
+			"<p>You have been <strong>redeemed</strong> from sin and condemnation through His sacrifice on the cross <i>(Ephesians 1:7; Colossians 1:13-14)</i>. <br> You are <strong>forgiven and set free</strong> from the power of sin.</p>",
+			"<p>You are a <strong>new creation</strong>; the old has passed away, and the new has come <i>(2 Corinthians 5:17)</i>. <br> This implies a <strong>radical</strong> change in your identity and spiritual nature.</p>",
+			"<p>You are <strong>justified</strong> before God, meaning declared righteous and blameless, through your faith in Him <i>(Romans 3:21-26)</i>. <br> You are not justified by your works but by Christ's <strong>finished</strong> work on the cross.</p>",
+			"<p>You are <strong>unconditionally loved</strong> by God <i>(Romans 8:38-39)</i>. <br> Your worth and dignity are not based on your actions or achievements but on God's <strong>eternal love</strong>.</p>"
 		]
 	},
 	"footer": {
-		"text": "Место, где любовь Бога проявляется в действиях, где люди находят утешение, силу и руководство на своем пути веры, и где поддерживается единство, сострадание и справедливость в мире.",
+		"text": "A place where the love of God is manifested in action, where people find comfort, strength, and guidance on their faith journey, and where unity, compassion, and justice are promoted in the world.",
 		"boxes": [
 			{
-				"title": "Связь",
-				"items": ["Лидеры", "Участвуйте", "Контакт"]
+				"title": "Contact",
+				"items": ["Leaders", "Get involved", "Contact"]
 			},
 			{
-				"title": "Ресурсы",
-				"items": ["Подкасты", "Серии", "Помощь"]
+				"title": "Resources",
+				"items": ["Podcasts", "Series", "Help"]
 			},
 			{
-				"title": "Социальные Сети",
+				"title": "Social Media",
 				"items": ["Facebook", "Instagram", "Twitter", "YouTube", "Spotify"]
 			},
 			{
-				"title": "Другое",
-				"items": ["Конфиденциальность", "Условия", "Новости", "Пожертвовать"]
+				"title": "Others",
+				"items": ["Privacy", "Terms", "News", "Donate"]
 			}
 		],
-		"end": "Церковь i18n - © Все права защищены - 2023 - 2026"
+		"end": "Church i18n - © All rights reserved - 2023 - 2026"
 	}
 }
