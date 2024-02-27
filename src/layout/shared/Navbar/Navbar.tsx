@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import './index.css';
+import { useEffect } from 'react';
 
 export default function Navbar() {
 	const { t, i18n } = useTranslation();
@@ -8,6 +9,11 @@ export default function Navbar() {
 		'navbar.languages',
 		{ returnObjects: true }
 	);
+
+	useEffect(() => {
+		document.title = t('navbar.title');
+	}, [t]);
+
 	return (
 		<nav className='navbar'>
 			<h5 className='title'> {t('navbar.title')} </h5>
